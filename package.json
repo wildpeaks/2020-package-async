@@ -1,0 +1,40 @@
+{
+  "name": "@wildpeaks/async",
+  "version": "1.0.0",
+  "description": "Async loops for ES2017",
+  "main": "src/async.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jasmine test/*.spec.js"
+  },
+  "eslintConfig": {
+    "extends": "@wildpeaks/commonjs"
+  },
+  "repository": "https://github.com/wildpeaks/package-async",
+  "keywords": [
+    "wildpeaks",
+    "async",
+    "await",
+    "promise",
+    "loop"
+  ],
+  "author": "Cecile Muller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildpeaks/package-async/issues"
+  },
+  "homepage": "https://github.com/wildpeaks/package-async#readme",
+  "dependencies": {
+    "p-limit": "1.1.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.8.2",
+    "@types/node": "8.0.56",
+    "@wildpeaks/eslint-config-commonjs": "4.1.0",
+    "eslint": "4.12.1",
+    "jasmine": "2.8.0"
+  }
+}
