@@ -13,7 +13,7 @@ function asyncArrayMap(array, callback, limit = 0){
 	let result;
 	if (Array.isArray(array) && (typeof callback === 'function') && (typeof limit === 'number') && !isNaN(limit)){
 		let promises = [];
-		if (limit > 0){
+		if ((limit > 0) && (limit < array.length)){
 			const helper = pLimit(limit);
 			promises = array.map((value, index, arrayRef) => helper(() => callback(value, index, arrayRef)));
 		} else {
