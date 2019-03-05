@@ -22,7 +22,6 @@
 !/test
 !/jsconfig.json
 !/package.json
-!/package-lock.json
 !/wallaby.js
 
 #-----------------------------------------------------------------------------#
