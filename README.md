@@ -1,7 +1,5 @@
 # package-async
 
-[![Build Status](https://travis-ci.org/wildpeaks/package-async.svg?branch=master)](https://travis-ci.org/wildpeaks/package-async)
-
 **Loops for async functions**.
 
 Installation:
