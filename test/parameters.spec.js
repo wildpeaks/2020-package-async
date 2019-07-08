@@ -12,6 +12,10 @@ async function makeUppercase(text){
 
 
 describe('Invalid values', () => {
+	it('Failing test, for checking Azure Pipelines catches it', () => {
+		expect(true).toBe(false);
+	});
+
 	it('undefined', async() => {
 		let error = false;
 		let results = [];
