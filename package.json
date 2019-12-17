@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/wildpeaks/package-async#readme",
   "dependencies": {
-    "p-limit": "2.2.0"
+    "p-limit": "2.2.1"
   },
   "devDependencies": {
     "@types/jasmine": "3.3.9",
