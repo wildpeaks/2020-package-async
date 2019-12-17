@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/jasmine": "3.5.0",
     "@types/node": "12.12.20",
-    "@wildpeaks/eslint-config-commonjs": "5.2.0",
+    "@wildpeaks/eslint-config-commonjs": "8.0.0-alpha7",
     "eslint": "5.15.1",
     "jasmine": "3.3.1"
   }
