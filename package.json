@@ -34,7 +34,7 @@
     "@types/jasmine": "3.5.0",
     "@types/node": "12.12.20",
     "@wildpeaks/eslint-config-commonjs": "8.0.0-alpha7",
-    "eslint": "5.15.1",
+    "eslint": "6.7.2",
     "jasmine": "3.3.1"
   }
 }
