@@ -31,7 +31,7 @@
     "p-limit": "2.2.1"
   },
   "devDependencies": {
-    "@types/jasmine": "3.3.9",
+    "@types/jasmine": "3.5.0",
     "@types/node": "11.10.4",
     "@wildpeaks/eslint-config-commonjs": "5.2.0",
     "eslint": "5.15.1",
