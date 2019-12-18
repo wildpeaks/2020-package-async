@@ -1,6 +1,6 @@
 {
   "name": "@wildpeaks/async",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Async loops for ES2017",
   "main": "src/async.js",
   "files": [
