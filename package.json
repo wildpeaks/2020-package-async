@@ -13,6 +13,18 @@
   "eslintConfig": {
     "extends": "@wildpeaks/commonjs"
   },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "useTabs": true,
+    "bracketSpacing": false
+  },
+  "greenkeeper": {
+    "commitMessages": {
+      "dependencyUpdate": "feat: update ${dependency}",
+      "devDependencyUpdate": "chore: update ${dependency}"
+    }
+  },
   "repository": "https://github.com/wildpeaks/package-async",
   "keywords": [
     "wildpeaks",
@@ -35,6 +47,7 @@
     "@types/node": "12.12.20",
     "@wildpeaks/eslint-config-commonjs": "8.0.0-alpha7",
     "eslint": "6.7.2",
-    "jasmine": "3.5.0"
+    "jasmine": "3.5.0",
+    "prettier": "1.19.1"
   }
 }
