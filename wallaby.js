@@ -1,15 +1,11 @@
-'use strict';
+"use strict";
 
 module.exports = () => ({
 	debug: true,
-	testFramework: 'jasmine',
-	files: [
-		'src/**/*.js'
-	],
-	tests: [
-		'test/*.spec.js'
-	],
+	testFramework: "jasmine",
+	files: ["src/**/*.js"],
+	tests: ["test/*.spec.js"],
 	env: {
-		type: 'node'
+		type: "node"
 	}
 });

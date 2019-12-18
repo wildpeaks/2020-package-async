@@ -1,6 +1,6 @@
 {
   "name": "@wildpeaks/async",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Async loops for ES2017",
   "main": "src/async.js",
   "files": [
@@ -12,6 +12,18 @@
   },
   "eslintConfig": {
     "extends": "@wildpeaks/commonjs"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "useTabs": true,
+    "bracketSpacing": false
+  },
+  "greenkeeper": {
+    "commitMessages": {
+      "dependencyUpdate": "feat: update ${dependency}",
+      "devDependencyUpdate": "chore: update ${dependency}"
+    }
   },
   "repository": "https://github.com/wildpeaks/package-async",
   "keywords": [
@@ -28,13 +40,12 @@
   },
   "homepage": "https://github.com/wildpeaks/package-async#readme",
   "dependencies": {
-    "p-limit": "2.2.0"
+    "p-limit": "2.2.1"
   },
   "devDependencies": {
-    "@types/jasmine": "3.3.9",
-    "@types/node": "11.10.4",
-    "@wildpeaks/eslint-config-commonjs": "5.2.0",
-    "eslint": "5.15.1",
-    "jasmine": "3.3.1"
+    "@wildpeaks/eslint-config-commonjs": "8.0.0-alpha7",
+    "eslint": "6.7.2",
+    "jasmine": "3.5.0",
+    "prettier": "1.19.1"
   }
 }
