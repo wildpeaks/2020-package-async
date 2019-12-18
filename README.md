@@ -1,5 +1,7 @@
 # package-async
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wildpeaks/package-async.svg)](https://greenkeeper.io/)
+
 **Loops for async functions**.
 
 Installation:
