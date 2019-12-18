@@ -1,6 +1,5 @@
-'use strict';
-const pLimit = require('p-limit');
-
+"use strict";
+const pLimit = require("p-limit");
 
 /**
  * Processes an array of values, using promises.
@@ -9,11 +8,11 @@ const pLimit = require('p-limit');
  * @param {number} limit  Number of promises that can run at once (`0` = no limit, `1` = only one at a time, `2` = two at once maximum, etc…)
  * @returns {Promise<any[]>}
  */
-function asyncArrayMap(array, callback, limit = 0){
+function asyncArrayMap(array, callback, limit = 0) {
 	let result;
-	if (Array.isArray(array) && (typeof callback === 'function') && (typeof limit === 'number') && !isNaN(limit)){
+	if (Array.isArray(array) && typeof callback === "function" && typeof limit === "number" && !isNaN(limit)) {
 		let promises = [];
-		if ((limit > 0) && (limit < array.length)){
+		if (limit > 0 && limit < array.length) {
 			const helper = pLimit(limit);
 			promises = array.map((value, index, arrayRef) => helper(() => callback(value, index, arrayRef)));
 		} else {
@@ -21,11 +20,9 @@ function asyncArrayMap(array, callback, limit = 0){
 		}
 		result = Promise.all(promises);
 	} else {
-		result = Promise.reject(new Error('Invalid parameter'));
+		result = Promise.reject(new Error("Invalid parameter"));
 	}
 	return result;
 }
 
-
 module.exports.asyncArrayMap = asyncArrayMap;
-
