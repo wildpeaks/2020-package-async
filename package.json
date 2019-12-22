@@ -2,13 +2,19 @@
   "name": "@wildpeaks/async",
   "version": "1.3.0",
   "description": "Async loops for ES2017",
-  "main": "src/async.js",
-  "files": [
-    "src"
+  "author": "Cecile Muller",
+  "license": "MIT",
+  "keywords": [
+    "wildpeaks",
+    "async",
+    "await",
+    "promise",
+    "loop"
   ],
-  "scripts": {
-    "lint": "eslint src",
-    "test": "jasmine test/*.spec.js"
+  "homepage": "https://github.com/wildpeaks/package-async#readme",
+  "repository": "https://github.com/wildpeaks/package-async",
+  "bugs": {
+    "url": "https://github.com/wildpeaks/package-async/issues"
   },
   "eslintConfig": {
     "extends": "@wildpeaks/commonjs"
@@ -25,25 +31,19 @@
       "devDependencyUpdate": "chore: update ${dependency}"
     }
   },
-  "repository": "https://github.com/wildpeaks/package-async",
-  "keywords": [
-    "wildpeaks",
-    "async",
-    "await",
-    "promise",
-    "loop"
+  "main": "src/async.js",
+  "files": [
+    "src"
   ],
-  "author": "Cecile Muller",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wildpeaks/package-async/issues"
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jasmine test/*.spec.js"
   },
-  "homepage": "https://github.com/wildpeaks/package-async#readme",
   "dependencies": {
     "p-limit": "2.2.1"
   },
   "devDependencies": {
-    "@wildpeaks/eslint-config-commonjs": "8.0.0-alpha7",
+    "@wildpeaks/eslint-config-commonjs": "8.0.0-alpha8",
     "eslint": "6.8.0",
     "jasmine": "3.5.0",
     "prettier": "1.19.1"
