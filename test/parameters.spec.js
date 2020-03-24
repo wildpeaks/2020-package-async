@@ -309,7 +309,7 @@ describe("Default limit", () => {
 		let error = false;
 		let results = [];
 		try {
-			results = await asyncArrayMap(["Aaa", "Bbb", "Ccc"], async word => {
+			results = await asyncArrayMap(["Aaa", "Bbb", "Ccc"], async (word) => {
 				const result = await makeUppercase(word);
 				return word + result;
 			});
@@ -324,7 +324,7 @@ describe("Default limit", () => {
 		let error = false;
 		let results = [];
 		try {
-			results = await asyncArrayMap(["Aaa", "Bbb", "Ccc"], async text => {
+			results = await asyncArrayMap(["Aaa", "Bbb", "Ccc"], async (text) => {
 				if (text === "Bbb") {
 					throw new Error(`BAD ${text}`);
 				}
