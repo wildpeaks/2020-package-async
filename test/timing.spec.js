@@ -11,7 +11,7 @@ const delays = {
 	Eee: 150
 };
 function delayedResolve(text) {
-	return new Promise(resolve => {
+	return new Promise((resolve) => {
 		const delay = text in delays ? delays[text] : 0;
 		setTimeout(() => {
 			const value = String(text).toUpperCase();
