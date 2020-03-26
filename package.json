@@ -26,12 +26,6 @@
     "bracketSpacing": false,
     "trailingComma": "none"
   },
-  "greenkeeper": {
-    "commitMessages": {
-      "dependencyUpdate": "feat: update ${dependency}",
-      "devDependencyUpdate": "chore: update ${dependency}"
-    }
-  },
   "main": "src/async.js",
   "files": [
     "src"
