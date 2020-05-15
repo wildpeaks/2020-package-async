@@ -38,7 +38,7 @@
     "p-limit": "2.3.0"
   },
   "devDependencies": {
-    "@wildpeaks/eslint-config-commonjs": "9.3.0",
+    "@wildpeaks/eslint-config-commonjs": "10.0.0",
     "eslint": "7.0.0",
     "jasmine": "3.5.0",
     "prettier": "2.0.5"
