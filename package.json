@@ -35,7 +35,7 @@
     "test": "jasmine test/*.spec.js"
   },
   "dependencies": {
-    "p-limit": "2.3.0"
+    "p-limit": "3.0.1"
   },
   "devDependencies": {
     "@wildpeaks/eslint-config-commonjs": "10.3.0",
